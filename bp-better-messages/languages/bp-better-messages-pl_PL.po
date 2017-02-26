@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Better Messages\n"
+"POT-Creation-Date: 2017-02-26 19:21+0100\n"
+"PO-Revision-Date: 2017-02-26 19:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bp-better-messages.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: addons/files.php:247
+msgid "Drag&Drop files here"
+msgstr ""
+
+#: addons/files.php:247
+msgid "or"
+msgstr ""
+
+#: addons/files.php:247
+msgid "Browse Files"
+msgstr ""
+
+#: addons/files.php:370
+msgid "Choose Files"
+msgstr ""
+
+#: addons/files.php:371
+msgid "Choose files To Upload"
+msgstr ""
+
+#: addons/files.php:372
+msgid "files were chosen"
+msgstr ""
+
+#: addons/files.php:373
+msgid "Drop file here to Upload"
+msgstr ""
+
+#: addons/files.php:374
+msgid "Are you sure you want to remove this file?"
+msgstr ""
+
+#: addons/files.php:376
+msgid "Only {{fi-limit}} files are allowed to be uploaded."
+msgstr ""
+
+#: addons/files.php:377
+msgid "This file type are not allowed to be uploaded."
+msgstr ""
+
+#: addons/files.php:378
+#, php-format
+msgid "%s is too large! Please upload file up to %s MB."
+msgstr ""
+
+#: addons/files.php:379
+#, php-format
+msgid "Files you've choosed are too large! Please upload files up to %s MB."
+msgstr ""
+
+#: addons/files.php:380
+msgid "You are not allowed to upload folders."
+msgstr ""
+
+#: addons/files.php:488
+msgid "You can`t upload files."
+msgstr ""
+
+#: addons/files.php:522
+msgid "Your request is empty."
+msgstr ""
+
+#: bp-better-messages.php:160
+msgid "typing..."
+msgstr "pisze..."
+
+#: inc/ajax.php:255
+msgid "Security error while sending message"
+msgstr "Wystąpił błąd zabezpieczeń podczas wysyłania wiadomości"
+
+#: inc/ajax.php:302
+msgid "Security error while starting new thread"
+msgstr "Wystąpił błąd zabezpieczeń podczas uruchamiania nowego wątku"
+
+#: inc/ajax.php:413
+msgid "Security error while deleting thread"
+msgstr "Błąd zabezpieczeń podczas usuwania wątku"
+
+#: inc/ajax.php:454
+msgid "Security error while recovering thread"
+msgstr "Błąd zabezpieczeń podczas odzyskiwania wątku"
+
+#: inc/component.php:37 inc/tab.php:19
+msgid "Messages"
+msgstr "Wiadomości"
+
+#: inc/component.php:116 inc/component.php:161
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgstr "Wiadomości <span class=\"%s bp-better-messages-unread\">%s</span>"
+
+#: inc/component.php:128
+msgid "Threads"
+msgstr "Tematy"
+
+#: inc/component.php:135 views/layout-index.php:12
+msgid "Starred"
+msgstr "Oznaczone gwiazdką"
+
+#: inc/component.php:142 views/layout-index.php:11 views/layout-new.php:3
+msgid "New Thread"
+msgstr "Nowy wątek"
+
+#: inc/component.php:206 inc/tab.php:142
+msgid "Access restricted"
+msgstr "Ograniczony dostęp użytkownika"
+
+#: inc/functions.php:319
+msgid "Thread was deleted."
+msgstr "zostało usunięty"
+
+#: inc/functions.php:320
+msgid "Recover?"
+msgstr "Odzyskaj"
+
+#: inc/hooks.php:50
+msgid "Every Fifteen Minutes"
+msgstr "Co piętnaście minut"
+
+#: inc/install.php:18
+msgid "[{{{site.name}}}] You have unread messages: {{subject}}"
+msgstr "[{{{site.name}}}] masz nieprzeczytanych wiadomości: {{temat}}"
+
+#: inc/install.php:20
+msgid ""
+"You have unread messages: &quot;{{subject}}&quot;\n"
+"\n"
+"{{{messages.html}}}\n"
+"\n"
+"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up "
+"on the conversation."
+msgstr ""
+"Masz nieprzeczytane wiadomości:  &quot;{{subject}}&quot;\n"
+"\n"
+"{{{messages.html}}}\n"
+"\n"
+"<a href=\"{{{thread.url}}}\">Idź do dyskusji</a> odpowiedz lub nadrób "
+"zaległości w rozmowę."
+
+#: inc/install.php:22
+msgid ""
+"You have unread messages: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Go to the discussion to reply or catch up on the conversation: {{{thread."
+"url}}}"
+msgstr ""
+"Masz nieprzeczytane wiadomośćci: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Przejdź do dyskusji aby odpowiedzieć lub nadrobić zaległości w rozmowie: "
+"{{{thread.url}}}"
+
+#: inc/install.php:26
+msgid "A member has unread private messages."
+msgstr "Użytkownik nie ma żadnych nieprzeczytanych powiadomień."
+
+#: inc/notifications.php:119
+#, php-format
+msgid "%s wrote:"
+msgstr "%s napisał:"
+
+#. Plugin Name of the plugin/theme
+#: inc/options.php:53 inc/options.php:54
+msgid "BP Better Messages"
+msgstr "BP lepsze wiadomości"
+
+#: inc/tab.php:97
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s\">%s</span>"
+msgstr "Wiadomości <span class=\"%s\">%s</span>"
+
+#: views/layout-index.php:25 views/layout-starred.php:40
+msgid "Nothing found"
+msgstr "Nic nie znaleziono"
+
+#: views/layout-new.php:8
+msgid "Send To (Username or Friend's Name)"
+msgstr "Wyślij do (nazwa użytkownika lub imię znajomego)"
+
+#: views/layout-new.php:13
+msgid "Subject"
+msgstr "Temat wiadomości"
+
+#: views/layout-new.php:18
+msgid "Message"
+msgstr "Wiadomość"
+
+#: views/layout-new.php:20 views/layout-thread.php:47
+msgid "Write your message"
+msgstr "Napisz swoją wiadomość"
+
+#: views/layout-new.php:26 views/layout-new.php:29
+msgid "Send Message"
+msgstr "Wyślij wiadomość"
+
+#: views/layout-settings.php:8
+msgid "BP Better Messages Settings"
+msgstr "BP lepsze wiadomości ustawienia"
+
+#: views/layout-settings.php:15 views/layout-settings.php:21
+msgid "Refresh mechanism"
+msgstr ""
+
+#: views/layout-settings.php:23
+msgid "AJAX"
+msgstr ""
+
+#: views/layout-settings.php:26
+msgid "WebSocket"
+msgstr ""
+
+#: views/layout-settings.php:36
+msgid "License Key"
+msgstr ""
+
+#: views/layout-settings.php:37
+msgid "Enter your license key"
+msgstr ""
+
+#: views/layout-settings.php:46 views/layout-settings.php:53
+msgid "Activate License"
+msgstr ""
+
+#: views/layout-settings.php:50
+msgid "active"
+msgstr ""
+
+#: views/layout-settings.php:51
+msgid "Deactivate License"
+msgstr ""
+
+#: views/layout-settings.php:61 views/layout-settings.php:67
+#: views/layout-settings.php:82
+msgid "Thread Refresh Interval"
+msgstr ""
+
+#: views/layout-settings.php:62
+msgid "Ajax check interval on open thread"
+msgstr ""
+
+#: views/layout-settings.php:76
+msgid "Site Refresh Interval"
+msgstr ""
+
+#: views/layout-settings.php:77
+msgid "Ajax check interval on other sites pages"
+msgstr ""
+
+#: views/layout-settings.php:92
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wordplus.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Pametaj ze przy aktualizacji nalezy podmienic pliki w \"'layout new \" oraz "
+"\"layout thread\""
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WordPlus"
+msgstr ""
