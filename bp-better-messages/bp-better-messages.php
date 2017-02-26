@@ -3,7 +3,7 @@
     @wordpress-plugin
     Plugin Name: BP Better Messages
     Plugin URI: https://www.wordplus.org
-    Description: Enhanced Private Messages System for BuddyPress
+    Description: Pametaj ze przy aktualizacji nalezy podmienic pliki w "'layout new " oraz "layout thread"
     Version: 1.7.2
     Author: WordPlus
     Author URI: https://www.wordplus.org

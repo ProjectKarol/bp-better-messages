@@ -21,8 +21,14 @@
                 <span class="clearfix"></span>
             </div>
 
-            <button type="submit"><?php _e( 'Send Message', 'bp-better-messages' ); ?></button>
-
+            <!--Poczatek przerobek-->
+<?php   if (  !is_super_admin() && (pmpro_hasMembershipLevel(array('1','2','3','4'))) ) :  ?>
+    <button type="submit"><?php _e( 'Send Message', 'bp-better-messages' ); ?></button>
+           
+<?php else : ?>
+    <a href="<?php echo get_site_url(); ?>/konto-czlonkowskie/poziomy-czlonkostwa/"><btn  ><?php _e( 'Send Message', 'bp-better-messages' ); ?></bt></a>
+<?php endif; ?>
+  <!--Koniec przrobek-->
             <?php if ( isset( $_GET[ 'to' ] ) && !empty( $_GET[ 'to' ] ) ) {
                 echo '<input type="hidden" name="to" value="' . $_GET[ 'to' ] . '">';
             } ?>

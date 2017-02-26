@@ -47,7 +47,15 @@ $stacks = BP_Better_Messages()->functions->get_stacks( $thread_id );
                 <textarea placeholder="<?php esc_attr_e( "Write your message", 'bp-better-messages' ); ?>" name="message" autocomplete="off"></textarea>
             </div>
             <div class="send">
-                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        <!--Poczatek przerobek-->
+<?php   if (  !is_super_admin() && (pmpro_hasMembershipLevel(array('1','2','3','4'))) ) :  ?>
+     <a href="#"> <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></a>
+           
+<?php else : ?>
+    <a href="<?php echo get_site_url(); ?>/konto-czlonkowskie/poziomy-czlonkostwa/"><btn  ><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></bt></a>
+<?php endif; ?>
+  <!--Koniec przrobek-->
+               
             </div>
             <input type="hidden" name="action" value="bp_messages_send_message">
             <input type="hidden" name="thread_id" value="<?php echo $thread_id; ?>">
